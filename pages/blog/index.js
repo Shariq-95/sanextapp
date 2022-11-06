@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar";
-import Link from "next/Link";
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts`);

@@ -4,7 +4,8 @@ const nextConfig = {
   swcMinify: true,
   images:{
     domains:["free4kwallpapers.com"]
-  }
+  },
+  future: {webpack5: true},
 }
 
 module.exports = nextConfig
